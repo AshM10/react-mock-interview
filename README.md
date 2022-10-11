@@ -7,6 +7,7 @@ The website is not responsive.
 ## Table of Contents
 
 - [Challenge](#challenge)
+- [Screenshot](#screenshot)
 - [Link](#link)
 - [Further Development](#further-development)
 - [Resources](#resources)
@@ -19,6 +20,11 @@ The website is not responsive.
 - Create 6 cute kitten cards from the data provided
 - Year of age should be correct
 - Create cards using grid
+
+## Screenshot
+
+![Screen Shot 2022-10-11 at 3 00 39 PM](https://user-images.githubusercontent.com/89284873/195187377-0b5cdab7-7ebc-427b-8499-7be7463f766f.png)
+
 
 ## Link
 
