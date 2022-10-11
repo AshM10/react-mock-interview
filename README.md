@@ -12,6 +12,8 @@ The website is not responsive.
 
 ## Challenge
 
+![Screen Shot 2022-10-11 at 1 22 19 PM](https://user-images.githubusercontent.com/89284873/195185587-477f0c26-ef48-4391-b158-9eb30156b5ad.png)
+
 - Create 6 cute kitten cards from the data provided.
 - Year of age should be correct.
 - Create cards using grid.
