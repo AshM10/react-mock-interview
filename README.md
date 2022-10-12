@@ -9,6 +9,7 @@ The website is not responsive.
 - [Challenge](#challenge)
 - [Screenshot](#screenshot)
 - [Link](#link)
+- [What I Learned](#what-i-learned)
 - [Further Development](#further-development)
 - [Resources](#resources)
 - [Author](#author)
@@ -29,6 +30,26 @@ The website is not responsive.
 ## Link
 
 - [Mock Junior Front End Web Developer Interview with Mike Chen and Silvia](https://www.youtube.com/watch?v=j7CG7awlrQA)
+
+## What I learned
+
+- It's always good to practice and voice out your thought patterns while coding
+- Never be afraid to ask questions when you get stuck
+- Use good HTML semantics
+- Application of slice method on a real project:
+
+```js
+const MAX_CATS = 6;
+const App = () => {
+  return (
+    <section className="App">
+      {CATS.slice(0, MAX_CATS).map((cat) => {
+        return <Card {...cat} />;
+      })}
+    </section>
+  );
+};
+```
 
 ## Further Development
 
