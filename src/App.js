@@ -66,6 +66,8 @@ const CATS = [
   },
 ];
 
+// pass the whole object in this function and input the value inside the HTML
+
 const Card = ({ name, breed, url, description, age }) => {
   return (
     <article className="Card">
@@ -80,6 +82,9 @@ const Card = ({ name, breed, url, description, age }) => {
     </article>
   );
 };
+
+// make sure grid consists of 6 cards only hence max_cats
+// slice method will return 6 cards and map will go through object data
 
 const MAX_CATS = 6;
 const App = () => {
