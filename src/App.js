@@ -85,6 +85,7 @@ const Card = ({ name, breed, url, description, age }) => {
 
 // make sure grid consists of 6 cards only hence max_cats
 // slice method will return 6 cards and map will go through object data
+// using the spread operator will iterate through the array
 
 const MAX_CATS = 6;
 const App = () => {
