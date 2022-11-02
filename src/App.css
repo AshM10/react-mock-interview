@@ -1,11 +1,26 @@
+html {
+  box-sizing: border-box;
+  font-size: 90%; /*14.4px */
+}
+
+@media (min-width: 65em) {
+  html {
+    box-sizing: border-box;
+    font-size: 100%; /*16px */
+  }
+}
+
+* {
+  box-sizing: inherit;
+}
+
 .App {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 40px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 3rem;
-  grid-auto-rows: minmax(100px, auto);
+  max-width: min(100%, 1100px);
+  margin: 0 auto;
+  padding: 2.5rem;
 }
 
 .App .Card {
@@ -21,10 +36,10 @@
 }
 
 .App .card-title {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .App .card-breed-age {
   color: gray;
-  font-size: 16px;
+  font-size: 1rem;
 }
